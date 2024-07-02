@@ -1,4 +1,3 @@
-import glob
 from Crypto.PublicKey import RSA
 from Crypto.Cipher import AES
 from Crypto.Cipher import PKCS1_OAEP
@@ -77,8 +76,6 @@ class Packet():
         except ValueError:
             message = b"Failure to verify authenticity and/or integrity of the message. (GCM TAG FAILURE)"
         return message.decode('utf-8')
-
-
 
 def transmit_message_demo(sender, recipient):
     """

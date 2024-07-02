@@ -4,7 +4,6 @@ from Crypto.Cipher import PKCS1_OAEP
 import pickle
 import os
 
-
 class RSA_User:
     """
     Creating an object in the platonic tradition...
@@ -25,7 +24,6 @@ class RSA_User:
             file.write(self.private_key.export_key())
         with open(self.public_filename, 'wb') as file:
             file.write(self.public_key.export_key())
-
 
 class Packet():
     """
@@ -138,7 +136,6 @@ def main():
                     break
                 case _:
                     print("Invalid choice. Please try again.")
-    
 
 if __name__ == "__main__":
     main()

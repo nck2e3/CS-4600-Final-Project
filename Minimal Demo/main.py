@@ -4,7 +4,6 @@ from Crypto.Cipher import PKCS1_OAEP
 import pickle
 import os
 
-
 class RSA_User:
     """
     Creating an object in the platonic tradition...

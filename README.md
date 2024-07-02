@@ -46,9 +46,9 @@ This project demonstrates the implementation of public-key cryptography using RS
     - Enter the message you want to send.
     - The script will display the unencrypted message, the encrypted message in transit, and the decrypted message at the recipient's end.
 
-2. Observe: 
-    - Key Generation
-    - Message File
+4. **Observe**: 
+    - Key Generation (".PEM" files)
+    - Message File (".txt" file)
     - Console Output
 
 ## Usage (Simple Demo)
@@ -58,7 +58,7 @@ This project demonstrates the implementation of public-key cryptography using RS
     python main.py
     ```
 
-2. Observe: 
-    - Key Generation
-    - Message File
+2. **Observe**: 
+    - Key Generation (".PEM" files)
+    - Message File (".txt" file)
     - Console Output
